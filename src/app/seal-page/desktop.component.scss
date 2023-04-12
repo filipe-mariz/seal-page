@@ -19,7 +19,7 @@
 
                     }
                     > .logo {
-                        position: fixed;
+                        position: absolute;
                         margin-top: 2%;
                         margin-left: 80vw !important;
                     }
@@ -42,12 +42,32 @@
                         margin-left: 24vw;
                     }
 
-                    button { 
+                    button {
                         width: 50px;
                         height: 50px;
                         margin-left: 1vw;
 
                     }
+                }
+            }
+        }
+
+        &_seal {
+            &_body {
+                > .product-image {
+                    margin-left: 45%;
+                    margin-top: 5%;
+                }
+
+                > .offer  {
+                    margin-top: 1%;
+                    margin-left: 37%;
+                }
+
+                > button {
+                    margin-top: 2%;
+                    width: 50vw;
+                    margin-left: 20%;
                 }
             }
         }

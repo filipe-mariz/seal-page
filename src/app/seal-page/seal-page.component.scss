@@ -201,20 +201,3 @@
         }
     }
 }
-
-@media only screen and (max-width: 100px) {
-    .page {
-        background: red;
-        &_contacts {
-            background: red;
-
-            &_body {
-                background: red;
-
-                > .header {
-                    background: red;
-                }
-            }
-        }
-    }
-}
