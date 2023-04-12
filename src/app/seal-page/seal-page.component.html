@@ -1,10 +1,39 @@
 <div class="page">
-    <div class="page_initial">
+    <!-- <div class="page_initial">
         Primeiras impressoes
 
         <button (click)="openWhatsApp('Imecap')" >clique aqui</button>
+    </div> -->
+    <!-- <div class="page_additional">Mais sobre o produto</div> -->
+    <div class="page_contacts">
+        <div class="page_contacts_body">
+            <div class="header">
+                <div class="persona">
+                    <img src="../../assets/icons/Avatar.png" alt="">
+                    <div class="span">
+                        <h1>Filipe Mariz</h1>
+                        <h2>Business account</h2>
+                    </div>
+                </div>
+                <div class="logo">
+                    <img src="../../assets/icons/WhatsAppLogo.png" alt="">
+                </div>
+            </div>
+
+            <div class="message-box">
+                <span>Do you have any questions about the product? Would you like to speak with our salesperson? Talk to him on WhatsApp.</span>
+            </div>
+            <div class="message-box message-sended" *ngIf="isSendMessage">
+                <span>{{ message }}</span>
+            </div>
+
+            <div class="input-box">
+                <input type="text" value="{{ message }}" disabled>
+                <button (click)="openWhatsApp()">
+                    <img src="../../assets/icons/Send.png" alt="">
+                </button>
+            </div>
+        </div>
     </div>
-    <div class="page_additional">Mais sobre o produto</div>
-    <div class="page_contacts">Contatos</div>
     <div class="page_seal">Pagamento</div>
 </div>

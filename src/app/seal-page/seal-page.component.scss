@@ -25,6 +25,115 @@
         height: 90vh;
         position: relative;
         margin-left: -8px;
+
+        &_body {
+            background: #F5ECE5;
+            width: 100vw;
+            height: 100vh;
+
+            > .header {
+                width: 100vw;
+                height: 11vh;
+                background: #00875F;
+                display: flex;
+
+                > .persona {
+                    display: flex;
+                    width: 50vw;
+                    height: 10vh;
+                    margin-top: 1%;
+
+                   img {
+                        border-radius: 100px;
+                        margin-top: 2%;
+                        margin-left: 2%;
+                    }
+
+                    > .span {
+                        margin-left: 25vw;
+                        position: absolute;
+                        color: #FFFFFF;
+
+                        h1 {
+                            position: absolute;
+                            width: 185px;
+                            height: 39px;
+                            font-family: 'Inria Serif';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 24px;
+                            line-height: 29px;
+                        }
+
+                        h2 {
+                            position: absolute;
+                            width: 185px;
+                            height: 39px;
+                            margin-top: 42px;
+                            font-family: 'Inria Serif';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 19px;
+                        }
+                    }
+                }
+
+                > .logo {
+                    margin-top: 5%;
+                    margin-left: 30vw;
+                }
+
+            }
+
+            > .message-box {
+                width: 70vw;
+                position: absolute;
+                background: #FFFFFF;
+                margin-left: 7vw;
+                margin-top: 3vh;
+                border-radius: 10px;
+                padding: 10px;
+                color: #677B6A;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+
+            > .message-sended {
+                background: #00875F !important;
+                margin-top: 16vh !important;
+                margin-left: 19vw;
+                color: #FFFFFF;
+            }
+
+            > .input-box {
+                margin-top: 72vh;
+                display: flex;
+
+                input {
+                    width: 65vw;
+                    // height: 5vh;
+                    border-radius: 10px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    border: none;
+                    margin-left: 7vw;
+                    padding-left: 10px;
+                    color: #677B6A;
+                }
+
+                button {
+                    width: 15%;
+                    height: 20%;
+                    margin-left: 5%;
+                    border-radius: 100%;
+                    border: none;
+                    background: #00875F;
+                }
+
+                button:hover {
+                    background: #016446;
+                }
+            }
+        }
     }
 
     &_seal {
