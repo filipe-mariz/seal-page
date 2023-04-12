@@ -142,5 +142,61 @@
         height: 100vh;
         position: relative;
         margin-left: -8px;
+
+        &_body {
+            width: 90vw;
+            height: 95vh;
+            margin-left: 5%;
+            position: absolute;
+
+            > .product-image {
+                margin-left: 25%;
+                margin-top: 10%;
+            }
+
+            > .offer  {
+                margin-top: 10%;
+
+                h1 {
+                    width: 343px;
+                    height: 96px;
+                    left: 54px;
+                    top: 315px;
+                    font-family: 'Inria Serif';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 40px;
+                    line-height: 48px;
+                    text-align: center;
+                    color: #B85D46;
+                }
+
+                h2 {
+                    width: 343px;
+                    top: 450px;
+                    font-family: 'Inria Serif';
+                    font-style: normal;
+                    text-align: center;
+                    color: #FFFFFF;
+                }
+            }
+
+            > button {
+                width: 80vw;
+                height: 7vh;
+                margin-left: 5%;
+                margin-top: 20%;
+                border: 2px solid #FFFFFF;
+                border-radius: 10px;
+                background: #B85D46;
+                color: #FFFFFF;
+
+                font-family: 'Inria Serif';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 24px;
+            }
+        }
     }
 }

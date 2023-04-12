@@ -11,8 +11,7 @@ export class SealPageComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 
   openWhatsApp() {
     window.open(`https://wa.me/+5581999489946?text=${encodeURIComponent(this.message)}`, "_blank");
