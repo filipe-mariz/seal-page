@@ -69,11 +69,115 @@
     }
 
     &_additional {
-        background: #8a8989;
+        background: #FFEFE4;
         width: 100vw;
         height: 90vh;
         position: relative;
         margin-left: -8px;
+
+        &_fisrt-body {
+            width: 100vw;
+            height: 65vh;
+
+            .fisrt-box {
+                width: 100vw;
+                height: 30vh;
+                background: #00875F;
+                position: absolute;
+
+                .header {
+                    margin-top: 2%;
+
+                    h1 {
+                        font-family: 'Inria Serif';
+                        font-size: 32px;
+                        text-align: center;
+                        color: #FFFFFF;
+                    }
+                }
+
+                .product-one {
+                    margin-left: 5vw;
+                    display: flex;
+
+                    img {
+                        margin-left: 1%;
+                    }
+
+                    span {
+                        font-family: 'Inria Serif';
+                        font-size: 15px;
+                        color: #FFFFFF;
+                        margin-top: 5vh;
+                        width: 50%;
+                        margin-left: 5vw;
+                    }
+                }
+
+                .product-two {
+                    width: 50%;
+                    margin-left: 5vw;
+                    display: flex;
+                    position: absolute;
+                    margin-top: -14vh;
+                    margin-left: 49vw;
+
+                    span {
+                        font-family: 'Inria Serif';
+                        font-size: 15px;
+                        color: #B85D46;
+                    }
+                }
+            }
+
+            .second-box {
+                width: 100vw;
+                height: 40vh;
+                // background: #ff0303;
+                position: absolute;
+                margin-top: 47vh;
+
+                .box-header {
+                    width: 100vw;
+                    height: 17vh;
+                    background: #B85D46;
+                    position: absolute;
+                    display: flex;
+
+                    span {
+                        font-family: 'Inria Serif';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 15px;
+                        line-height: 18px;
+                        color: #FFFFFF;
+                        width: 40%;
+                        margin-left: 4vw;
+                        margin-top: 4vw;
+                    }
+
+                    img {
+                        position: absolute;
+                        float: right;
+                        margin-left: 40vw;
+                        width: 60%;
+                    }
+                }
+
+                .product-two {
+                    position: absolute;
+                    width: 40%;
+                    margin-left: 4vw;
+                    margin-top: 36.5vw;
+                    font-family: 'Inria Serif';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 15px;
+                    line-height: 18px;
+                    color: #B85D46;
+                }
+            }
+        }
     }
 
     &_contacts {
