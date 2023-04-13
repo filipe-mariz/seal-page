@@ -29,6 +29,101 @@
 
         }
 
+        &_additional {
+            height: 176vh;
+
+            &_fisrt-body {
+                .fisrt-box {
+                    height: 50vh;
+
+                    .header {
+                        h1 {
+                            font-size: 75px;
+                        }
+                    }
+
+                    .product-one {
+                        margin-left: 15vw;
+
+                        img {
+                            margin-top: -9%;
+                            width: 20%;
+                        }
+
+                        span {
+                            margin-top: -9px;
+                            font-size: 35px;
+                        }
+                    }
+
+                    .product-two {
+                        margin-top: -22vh;
+                        margin-left: -11%;
+                        width: 100%;
+
+                        span {
+                            margin-left: 49vw;
+                            font-size: 35px;
+                        }
+                    }
+                }
+
+                .second-box {
+                    margin-top: 90vh;
+
+                    .box-header {
+                        height: 40vh;
+
+                        span {
+                            font-size: 35px;
+                            margin-top: 5%;
+                        }
+
+                        img {
+                            margin-left: 50vw;
+                            width: 50%;
+                        }
+                    }
+
+                    .product-two {
+                        font-size: 35px;
+                        margin-top: 30vw;
+                    }
+                }
+            }
+
+            &_second-body {
+                margin-top: 100vw;
+
+                .header {
+                    font-size: 50px;
+                    margin-left: 40vw;
+                    margin-top: 2%;
+                }
+
+                .body {
+                    margin-left: 4vw;
+                    margin-top: 2%;
+
+                    img {
+                        width: 10%;
+                        margin-left: 20vw;
+                    }
+
+                    span {
+                        width: 40vw;
+                        font-size: 35px;
+                    }
+                }
+
+                .button {
+                    width: 40vw;
+                    margin-left: 30.5vw;
+                    margin-top: 3%;
+                }
+            }
+        }
+
         &_contacts {
             &_body {
                 > .header {
