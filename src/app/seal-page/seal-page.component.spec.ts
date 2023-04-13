@@ -20,4 +20,6 @@ describe('SealPageComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should change the value of isSendMessage')
 });

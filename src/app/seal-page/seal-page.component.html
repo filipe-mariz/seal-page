@@ -2,8 +2,8 @@
     <div class="page_initial">
         <div class="page_initial_body">
             <div class="header">
-                <h1>Dentitox Pro</h1>
-                <h2>Attention! Get Special 90% Discount Today</h2>
+                <h1>{{ maps.title }}</h1>
+                <h2>{{ maps.discount }}</h2>
             </div>
             <div class="image">
                 <img class="detitox" src="../../assets/icons/Detitox-initial.svg" alt="">
@@ -38,7 +38,7 @@
             </div>
         </div>
         <div class="page_additional_second-body">
-            <div class="header">Dentitox Pro...</div>
+            <div class="header">{{ maps.title }}...</div>
             <div class="body">
                 <img src="../../assets/icons/Dentiox-unit.svg" alt="">
                 <span>is a 100% natural liquid supplement that contains a unique combination of powerful ingredients that help maintain the health of your teeth and gums. With a unique formula that includes vitamins, minerals, and herbal extracts, this product acts directly on your teeth, strengthening enamel, eliminating plaque, and reducing the risk of cavities and periodontal diseases.</span>
@@ -66,11 +66,11 @@
                 <span>Do you have any questions about the product? Would you like to speak with our salesperson? Talk to him on WhatsApp.</span>
             </div>
             <div class="message-box message-sended" *ngIf="isSendMessage">
-                <span>{{ message }}</span>
+                <span>{{ maps.whatsappToSendMessage }}</span>
             </div>
 
             <div class="input-box">
-                <input type="text" value="{{ message }}" disabled>
+                <input type="text" value="{{ maps.whatsappToSendMessage }}" disabled>
                 <button (click)="openWhatsApp()">
                     <img src="../../assets/icons/Send.png" alt="">
                 </button>
@@ -86,7 +86,7 @@
                 <h1>SPECIAL OFFER FOR YOU!</h1>
                 <h2>ONLY TODAY FOR $20.00!!</h2>
             </div>
-            <button>Click here to get Dentitox Pro </button>
+            <button>Click here to get {{ maps.title }} </button>
         </div>
     </div>
 </div>

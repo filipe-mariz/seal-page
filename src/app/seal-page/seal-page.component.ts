@@ -1,24 +1,24 @@
 import { Component, OnInit } from '@angular/core';
+import map from './utils/maps'
 
 @Component({
   selector: 'app-seal-page',
   templateUrl: './seal-page.component.html',
   styleUrls: [
-    './seal-page.component.scss',
-    './desktop.component.scss'
+    './styles/seal-page.component.scss',
+    './styles/desktop.component.scss'
   ]
 })
 export class SealPageComponent implements OnInit {
-  public message = "Hello! I'm interested in purchasing Dentitox Pro. Can you please confirm the availability and let me know how I can proceed with the purchase? Thank you!"
   public isSendMessage: boolean = false;
+  public maps = map;
 
   constructor() { }
 
   ngOnInit(): void {}
 
   openWhatsApp() {
-    window.open(`https://wa.me/+5581999489946?text=${encodeURIComponent(this.message)}`, "_blank");
-
     this.isSendMessage = !this.isSendMessage
+    window.open(`https://wa.me/+5581999489946?text=${encodeURIComponent(this.maps.whatsappToSendMessage)}`, "_blank");
   }
 }
